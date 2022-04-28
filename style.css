@@ -1,0 +1,226 @@
+
+@font-face {
+    font-family: CerebriSansPro;
+    src: url('./CerebriSansPro.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+  }
+body {
+    font-family: "CerebriSansPro";
+    font-size: large;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;    
+    border-bottom: lightgray 1px solid;
+    font-size: 16px;
+    padding: 16px;
+
+}
+.header-a{
+    color: gray;
+    text-decoration: none;
+    
+}
+
+.header-box1{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 50%;
+    color: gray;
+    gap: 10px;
+    padding-left: 10px;
+} 
+
+.header-box2{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 50%;
+    padding-right: 10px;
+    gap:10px;
+}
+
+.header-item{
+    color:gray;
+}
+.header-item a{
+    text-decoration: none;
+    color:gray;
+}
+
+.header-aux  {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+text-decoration: none;
+}
+
+.servicios-adicionales{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+padding: 35px 35px;
+}
+
+.descuento{
+   display: flex;
+   flex-direction: row; 
+   justify-content: center;
+}
+
+
+
+.nuevos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+}
+
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+
+.card-testimonio  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+      
+}
+
+.footer-a{
+    color: gray;
+    text-decoration: none;
+    
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    border-top: lightgray 1px solid;
+    font-size: 16px; 
+    margin-top: 10px;
+    
+}
+
+.footer-box1{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    padding: 10px;
+
+}
+
+.footer-box2{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    padding: 10px;
+}
+
+.footer-box3{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    padding: 10px;
+}
+.footer-box4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    padding: 10px;
+}
+
+.footer-box4 p{
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+}
+
+.footer-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-img img{
+    padding-top: 10px;
+    width:30%;
+}
+
+.footer-box-item h4{
+    text-align: center;
+}
+
+@media (min-width:760px) {
+
+    .footer{
+        display: flex;
+        flex-direction: row;
+        width:100%;
+        border-top: lightgray 1px solid;
+        font-size: 10px; 
+        margin-top: 10px;
+        font-size: 16px;
+    }
+
+    .footer-box1{
+        display: flex;
+        flex-direction: column;
+        width:17%;
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+    
+    .footer-box2{
+        display: flex;
+        flex-direction: column;
+        width:17%;
+        padding-top: 10px;
+    }
+    
+    .footer-box3{
+        display: flex;
+        flex-direction: column;
+        width:17%;
+        padding-top: 10px;
+    }
+    .footer-box4{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width:49%;
+        
+    }
+    .footer-box-item4{
+        border-left:1px lightgray solid;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+  
+}
+
+
+ 
