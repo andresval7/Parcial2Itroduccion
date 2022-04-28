@@ -5,12 +5,17 @@ document.addEventListener("DOMContentLoaded", function() {
   function validarFormulario(evento) {
     evento.preventDefault();
     var usuario = document.getElementById('usuario').value;
-    if(usuario.length == 0) {
+    if(usuario == "") {
       alert('Favor ingresar el nombre del usuario');
       return;
     }
     var clave = document.getElementById('contrasena').value;
     if (clave =="12345") {
+      alert('La clave es inválida, favor ingrese una contrasena diferente');
+      return;
+    }
+
+    if (clave =="") {
       alert('La clave es inválida, favor ingrese una contrasena diferente');
       return;
     }
